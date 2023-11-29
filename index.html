@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+
+
+
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Pacifico&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+<script src="script.js"></script>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakura Ramen</title>
+    
+</head>
+<body>
+    <script>
+        function de() {
+            document.getElementById('ht-order').innerHTML = 'BESTELLUNG';
+            document.getElementById('rmn').innerHTML = 'DIE BESTE RAMEN IM STADT';
+            document.getElementById('picknoodle').innerHTML = 'Wahle Deine Noodle';
+            document.getElementById('pickbroth').innerHTML = 'Wahle Deine Broth';
+            document.getElementById('addtopp').innerHTML = 'Topping hinzufugen';
+            document.getElementById('ourme').innerHTML = 'Unsere Menu';
+            document.getElementById('findus').innerHTML = 'Find Uns';
+        }
+        function eng() {
+            document.getElementById('ht-order').innerHTML = 'HOW TO ORDER';
+            document.getElementById('rmn').innerHTML = 'THE BEST RAMEN IN TOWN';
+            document.getElementById('picknoodle').innerHTML = 'PICK YOUR NOODLE';
+            document.getElementById('pickbroth').innerHTML = 'PICK YOUR BROTH';
+            document.getElementById('addtopp').innerHTML = 'ADD TOPPINGS';
+            document.getElementById('ourme').innerHTML = 'Our Menu';
+            document.getElementById('findus').innerHTML = 'Find Us At';
+        }
+    </script>
+    <div>
+    <img class="back-img" src="./hero/jpg/hero.jpg">
+    
+    <div class="main-container">
+        <h1 class="headline">SAKURA RAMEN</h1>
+        <p id="rmn">THE BEST RAMEN IN TOWN</p>
+    </div>
+    <img class="menu_bar_img" src="./hero/PNG/2. Sakura Logo@3x.png">
+
+
+    <div style="font-family: 'Raleway';" class="menu-bar">
+        <a href="#ourmenu">Menu</a>
+        <a href="#map">Locations</a>
+        <a href="#footer">About</a>
+        <a class="active" href="tel: 01781889420"> <i class="fa fa-phone" aria-hidden="true"></i>  0178 189420</a>
+        <div class="dropdown">
+            <button class="dropbtn">Language</button>
+            <div class="dropdown-content">
+                <button onclick="eng()" class="btn"><img src="./flag icons/icons8-great-britain-48.png"></button>
+                <button onclick="de()" class="btn"><img src="./flag icons/icons8-germany-48.png"></button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="how_to_container">
+        <div style="font-family: 'Raleway'; color: red;" class="how_to">
+            <h2 id="ht-order">HOW TO ORDER</h2>
+        </div>
+        <div class="pick_img">
+            <div class="pick_img_order">
+                <img width="128px" src="./order/PNG/1. Noodle@3x.png">
+                <span id="picknoodle" class="span_order">Pick your noodle</span>
+            </div>
+            <div class="pick_img_order">
+                <img width="128px" src="./order/PNG/2. Broth@3x.png">
+                <span id="pickbroth" class="span_order">Pick your Broth</span>
+            </div>
+            <div class="pick_img_order">
+                <img width="128px" src="./order/PNG/3. Egg@3x.png">
+                <span id="addtopp" class="span_order">Add your toppings</span>
+            </div>
+        </div>
+    </div>
+    <div class="main_menu">
+        <div>
+            <div>
+                <img class="hintergrund" src="./menu/JPG (Hintergrund)/1. Desktop@3x.jpg">
+            </div>
+            <div>
+                <div style="font-family: 'Raleway'; color: red;" class="our_menu" id="ourmenu">
+                    <h1 id="ourme">OUR MENU</h1>
+                </div>
+                <div class="all_ramen">
+                    <div class="menu_ramen">
+                        <img class="img_noodle" width="352px" src="./menu/Png/2. R1-CP.png">
+                        <div class="ramen_size">
+                            <h2>Tonkotsu Ramen</h2>
+                            <table style="font-family: 'Raleway';">
+                                <tr>
+                                    <td>CHICKEN</td>
+                                    <td>11.95 $</td>
+                                </tr>
+                                <tr>
+                                    <td>BEEF</td>
+                                    <td>12.95 $</td>
+                                </tr>
+                                <tr>
+                                    <td>SHRIMP</td>
+                                    <td>13.95 $</td>
+                                </tr>
+                            </table>    
+                        </div>
+                    </div>
+                    <div class="menu_ramen">
+                        <div class="ramen_size">
+                            <h2>Spicy Miso Ramen</h2>
+                            <table style="font-family: 'Raleway';">
+                                <tr>
+                                    <td>CHICKEN</td>
+                                    <td>11.95 $</td>
+                                </tr>
+                                <tr>
+                                    <td>BEEF</td>
+                                    <td>12.95 $</td>
+                                </tr>
+                                <tr>
+                                    <td>SHRIMP</td>
+                                    <td>13.95 $</td>
+                                </tr>
+                            </table>    
+                        </div>
+                        <img class="img_noodle" width="352px" src="./menu/Png/3. R2-CP.png">
+                    </div>
+                    <div class="menu_ramen">
+                        <img class="img_noodle" width="352px" src="./menu/Png/4. R3-CP.png">
+                        <div class="ramen_size">
+                            <h2>Shio Ramen</h2>
+                            <table style="font-family: 'Raleway';">
+                                <tr>
+                                    <td>CHICKEN</td>
+                                    <td>11.95 $</td>
+                                </tr>
+                                <tr>
+                                    <td>BEEF</td>
+                                    <td>12.95 $</td>
+                                </tr>
+                                <tr>
+                                    <td>SHRIMP</td>
+                                    <td>13.95 $</td>
+                                </tr>
+                            </table>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="find_us" id="map">
+        <h1 id="findus" style="font-family: 'Raleway'; color: red; font-size: 80px;">FIND US AT</h1>
+        <div style="font-family: 'Raleway';" class="find_us_address">
+            <h2><i class="fa fa-map-marker" aria-hidden="true"></i>
+                Kapuzinerstraße 31, München, 80337</h2>
+        </div>
+    </div>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d665.8020263608698!2d11.560558228543373!3d48.125509993384156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ddf76491f7e83%3A0xd9731116d56bf59c!2sSakura%20Ramen!5e0!3m2!1ssq!2sde!4v1696102102907!5m2!1ssq!2sde" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div style="font-family: 'Raleway';" class="footer">
+        <div class="sak_ramen">
+            <img style="height: 44px;" src="./footer/PNG/sakura.png">
+        </div>
+        <div class="instagram" id="footer">
+            <img style="width: 44px; height: 44px;" src="./footer/PNG/trip.png">
+            <img style="width: 44px; height: 44px;" src="./footer/PNG/facebook.png">
+            <img style="width: 44px; height: 44px;" src="./footer/PNG/instagram.png">
+        </div>
+    </div>
+</body>
+</html>
